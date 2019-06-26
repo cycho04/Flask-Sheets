@@ -12,6 +12,7 @@ flask = "*"
 oauth2client = "*"
 gspread = "*"
 google-api-python-client = "*"
+flask-wtf = "*"
 
 [requires]
 python_version = "3.7"
