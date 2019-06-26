@@ -9,6 +9,9 @@ autopep8 = "*"
 
 [packages]
 flask = "*"
+oauth2client = "*"
+gspread = "*"
+google-api-python-client = "*"
 
 [requires]
 python_version = "3.7"
