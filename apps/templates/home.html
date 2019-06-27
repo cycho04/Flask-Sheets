@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Add New Employee</h1>
+    <form action="http://localhost:5000/new" method="post">
+      <fieldset>
+        <legend>New Employee</legend>
+        {{ form.hidden_tag() }}
+        <div>
+          {{ form.first.label }}<br />
+          {{ form.first }}
+          <br />
+          {{ form.last.label }}<br />
+          {{ form.last }}
+          <br />
+          {{ form.casino.label }}<br />
+          {{ form.casino }}
+          <br />
+          {{ form.title.label }}<br />
+          {{ form.title }}
+          <br />
+          {{ form.hired.label }}<br />
+          {{ form.hired }}
+          <br />
+          {{ form.EIN.label }}<br />
+          {{ form.EIN }}
+          <br />
+          {{ form.submit }}
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
